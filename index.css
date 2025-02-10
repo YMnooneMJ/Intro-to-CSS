@@ -1,0 +1,29 @@
+
+/* targeting html elements with class name, it must be prefixed with  dot (.) */
+ .container{
+background: #fff;
+color: rgb(51, 16, 83);
+ }
+ .child{
+    background-color: rgb(92, 91, 22);
+    color: white;
+ }
+ /*targeting html elements with tagnam or type selector */
+body{background-color: black;
+    color: black;
+}
+h2{
+
+}
+/* targeting html elements with id, it must be prefixed with a hashtag (#) */
+#main{
+    background-color: rgb(4, 4, 22);
+    color: white
+}
+#profile{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
